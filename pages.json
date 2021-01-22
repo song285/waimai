@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/eleMe/eleMe",
+			"style": {
+				// "navigationBarTitleText": "好券侠"
+				"navigationBarTitleText": "i食惠"
+			   //  "usingComponents": {
+				  // "yz-hepler": "plugin://yz-plugin/yz-helper"
+			   //  }
+			}
+		},
+		{
+		    "path" : "pages/coupons/coupons",
+		    "style": {
+		    	"navigationBarTitleText": "购物券"
+		    }
+		    
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/meiTuan/meiTuan",
+			"style": {
+				// "navigationBarTitleText": "好券侠"
+				"navigationBarTitleText": "i食惠"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/fans/fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/webView/webView",
+			"style": {
+				"navigationBarTitleText": "外卖红包天天领"
+			}
+		},
+		{
+			"path": "pages/user/customer",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/eleMe/richText",
+			"style": {
+				"navigationBarTitleText": "赚钱攻略"
+			}
+		}
+	    // ,{
+     //        "path" : "pages/coupons/coupons",
+     //        "style": {
+     //        	"navigationBarTitleText": "购物券"
+     //        }
+            
+     //    }
+        ,{
+            "path" : "pages/component/helper/helper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	// 	"color": "#333333",
+	// 	"selectedColor": "#333333",
+	// 	"backgroundColor": "#fff",
+	// 	"list": [{
+	// 			"pagePath": "pages/eleMe/eleMe",
+	// 			"iconPath": "/static/tabbar/UN-ELM.png",
+	// 			"selectedIconPath": "/static/tabbar/elme.png",
+	// 			"text": "饿了么"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/meiTuan/meiTuan",
+	// 			"iconPath": "/static/tabbar/UN-MEITUAN.png",
+	// 			"selectedIconPath": "/static/tabbar/meituan.png",
+	// 			"text": "美团"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/coupons/coupons",
+	// 			"iconPath": "/static/tabbar/un-pdd.png",
+	// 			"selectedIconPath": "/static/tabbar/PDD.png",
+	// 			"text": "购物券"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/user/user",
+	// 			"iconPath": "/static/tabbar/UN-WOD.png",
+	// 			"selectedIconPath": "/static/tabbar/wo.png",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// }
+}

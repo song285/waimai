@@ -1,0 +1,130 @@
+.yz-helper.bg{
+  height: 100vh;
+  background: rgba(0, 0, 0, .4);
+  padding-top: 17vh;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+}
+.yz-helper .main{
+  width: 641rpx;
+  height: 787rpx;
+  background: url("https://img.yz-iot.com/yunzhi/mini-plug/quzhi.png") center center no-repeat;
+  background-size: 641rpx;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+.yz-helper .main-title image{
+  width: 347rpx;
+  height: 66rpx;
+  margin-top: 113rpx;
+}
+.yz-helper .step{
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.yz-helper .step image{
+  width: 56rpx;
+  height: 56rpx;
+  margin-bottom: 6rpx;
+}
+.yz-helper .step-item{
+  width: 80rpx;
+}
+.yz-helper .step-item p{
+  font-size: 20rpx;
+  line-height: 20rpx;
+  display: block;
+  color: #000000;
+}
+.yz-helper .step-icon image{
+  width: 26rpx;
+  height: 24rpx;
+  margin: 0 40rpx;
+  margin-top: 16rpx;
+}
+.yz-helper .main-btn image{
+  width: 260rpx;
+  height: 254rpx;
+  margin-top: 70rpx;
+}
+.yz-helper .main-rw image{
+  position: absolute;
+  left: 50rpx;
+  top: 450rpx;
+  width: 205rpx;
+  height: 198rpx;
+}
+.yz-helper .main-word{
+  color: #999;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  margin-top: 40rpx;
+}
+.yz-helper .main-word span{
+  font-weight: bold;
+  font-size: 30rpx;
+  color: #4491F1;
+  line-height: 24rpx;
+}
+.yz-helper .close{
+  text-align: center;
+  margin-top: 18rpx;
+}
+.yz-helper .close image{
+  width: 78rpx;
+  height: 78rpx;
+}
+.yz-helper .mol-box{
+  width: 494rpx;
+  height: 344rpx;
+  position: fixed;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 7rpx;
+  top: 370rpx;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  font-size: 0;
+}
+.yz-helper .mol-box image{
+  width: 71rpx;
+  height: 68rpx;
+  margin-top: 38rpx;
+}
+.yz-helper .mol-title{
+  font-weight: 600;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #333;
+  margin-top: 32rpx;
+}
+.yz-helper .mol-sub{
+  margin-top: 14rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #909090;
+}
+.yz-helper .mol-btn{
+  width: 336rpx;
+  height: 71rpx;
+  line-height: 71rpx;
+  font-size: 24rpx;
+  background: #4491F1;
+  border-radius: 10rpx;
+  margin: 32rpx auto 0;
+  color: #fff;
+}
+.btn_takefun{
+	background: none;
+	width: 260px;
+}
+button::after{
+	border: none;
+}

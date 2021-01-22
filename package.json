@@ -1,0 +1,19 @@
+{
+  "name": "takeaway-rebate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://alen285:songjian285@dev2.zhishangsoft.com:8000/hezhen/takeaway-rebate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "umtrack-wx": "^2.5.2"
+  }
+}
